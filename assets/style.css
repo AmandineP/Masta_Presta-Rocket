@@ -44,6 +44,7 @@ ul, li {
 
 #topBar ul li {
 	float: left;
+	font-size: 11px;
 }
 
 #topBar ul li a {
@@ -63,7 +64,7 @@ ul, li {
 }
 
 .Language img {
-	width: 3%;
+	width: 15px;
 }
 
 
