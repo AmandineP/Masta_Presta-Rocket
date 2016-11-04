@@ -1,0 +1,74 @@
+@font-face {
+  font-family: MontserratBold;
+  src: url(fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: MontserratRegular;
+  src: url(fonts/Montserrat-Regular.ttf);
+}
+
+body {
+	font-family: MontserratRegular;
+	text-decoration: none;
+	color: #000;
+	list-style: none;
+}
+
+ul, li {
+	list-style: none;
+}
+
+/*---------HEADER--------*/
+
+/*---------Notification--------*/
+
+#notification {
+	background: #F2F2F2;
+}
+
+#notification div {
+	color: #ff6666;
+	text-align: center;
+}
+
+#notification .Close button {
+	border: none;
+	background: #F2F2F2;
+	color: #ff6666;
+}
+
+/*---------END Notification--------*/
+
+/*---------topBar--------*/
+
+#topBar ul li {
+	float: left;
+}
+
+#topBar ul li a {
+	color: #7f7f7f;
+}
+
+#topBar ul li a i {
+	color: #70a53f;
+}
+
+#topBar .fa-caret-down {
+	color: #7f7f7f;
+}
+
+#topBar .Compare, .Checkout {
+	display: none;
+}
+
+.Language img {
+	width: 3%;
+}
+
+
+/*---------END topBar--------*/
+
+
+
+/*---------END HEADER--------*/
