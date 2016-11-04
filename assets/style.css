@@ -25,17 +25,25 @@ ul, li {
 
 #notification {
 	background: #F2F2F2;
+	height: 20px;
 }
 
 #notification div {
 	color: #ff6666;
 	text-align: center;
+	font-size: 8px;
+	letter-spacing: 1px;
 }
 
 #notification .Close button {
 	border: none;
 	background: #F2F2F2;
 	color: #ff6666;
+	font-size: 8px;
+	letter-spacing: 1px;
+	float: right;
+	padding: 0 10px 0 0;
+	margin-top: -20px;
 }
 
 /*---------END Notification--------*/
@@ -44,7 +52,7 @@ ul, li {
 
 #topBar ul li {
 	float: left;
-	font-size: 11px;
+	font-size: 9px;
     margin-right: 10px;
 }
 
@@ -74,7 +82,7 @@ ul, li {
 }
 
 #topBar .Language {
-    margin-left: 20%;
+    margin-left: 30%;
 }
 
 .Language img {
@@ -82,7 +90,7 @@ ul, li {
 }
 
 #topBar {
-	margin-bottom: 10%; 
+	margin-bottom: 8%; 
 }
 
 /*---------END topBar--------*/
@@ -90,13 +98,17 @@ ul, li {
 /*---------Logotype--------*/
 
 #logo img {
-    width: 23%;
+    width: 16%;
     padding-left: 25px;
 }
 
 /*---------END Logotype--------*/
 
 /*---------hotLine--------*/
+
+#hotLine {
+	float: left;
+}
 
 #hotLine .Phone {
 	font-family: MontserratBold;
