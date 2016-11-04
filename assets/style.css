@@ -19,6 +19,30 @@ ul, li {
 	list-style: none;
 }
 
+.col-xs-1 {
+	width: 2.5%;
+}
+
+.col-sm-1 {
+	width: 6%;
+}
+
+.col-md-1 {
+	width: 8.5%;
+}
+
+.col-md-2 {
+	width: 17%;
+}
+
+.col-md-4 {
+	width: 34%;
+}
+
+.col-lg-1 {
+	width: 11%;
+}
+
 /*---------HEADER--------*/
 
 /*---------Notification--------*/
@@ -31,7 +55,7 @@ ul, li {
 #notification div {
 	color: #ff6666;
 	text-align: center;
-	font-size: 8px;
+	font-size: 6px;
 	letter-spacing: 1px;
 }
 
@@ -52,8 +76,8 @@ ul, li {
 
 #topBar ul li {
 	float: left;
-	font-size: 9px;
-    margin-right: 10px;
+	font-size: 7px;
+    margin-right: 5px;
 }
 
 #topBar ul li a {
@@ -74,7 +98,7 @@ ul, li {
 #topBar .fa-caret-down {
 	color: #7f7f7f;
 	border-right: solid 01px #7f7f7f;
-    padding-right: 10px;
+    border: none;
 }
 
 #topBar .Compare, .Checkout {
@@ -98,22 +122,63 @@ ul, li {
 /*---------Logotype--------*/
 
 #logo img {
-    width: 16%;
+    width: 90%;
     padding-left: 25px;
+    float: left;
 }
 
 /*---------END Logotype--------*/
+
+/*---------search--------*/
+
+#search input {
+    border: solid 2px #70a53f;
+    border-radius: inherit;
+    float: left;
+    margin-left: 8.5%;
+}
+
+#search button {
+	background: #70a53f;
+    border: none;
+    height: 32px;
+    margin: none;
+    float: left;
+}
+
+#search i {
+	color: #FFF;
+}
+
+/*---------END search--------*/
 
 /*---------hotLine--------*/
 
 #hotLine {
 	float: left;
+	margin-left: 6%;
 }
 
 #hotLine .Phone {
 	font-family: MontserratBold;
 	color: #7f7f7f;
-	font-size: 16px;
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+
+#hotLine .Email {
+	color: #7f7f7f;
+	font-size: 9.5px;
+	letter-spacing: 0.7px;
+}
+
+#hotLine i {
+	float: left;
+    color: #70a53f;
+    border: 1px dotted;
+    padding: 10px;
+    border-radius: 50%;
+    margin: -40px 0px 0 105px;
 }
 
 /*---------END hotLine--------*/
