@@ -75,7 +75,19 @@ ul, li {
 	width: 15px;
 }
 
+#topBar {
+	margin-bottom: 10%; 
+}
+
 /*---------END topBar--------*/
+
+/*---------Logotype--------*/
+
+#logo img {
+    width: 23%;
+}
+
+/*---------END Logotype--------*/
 
 /*---------Menu--------*/
 
