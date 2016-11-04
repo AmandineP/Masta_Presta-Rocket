@@ -59,7 +59,6 @@ ul, li {
 	margin-right: 3px;
 }
 
-
 #topBar ul .Help a, #topBar ul .SignIn a {
 	border: none;
 }
@@ -72,6 +71,10 @@ ul, li {
 
 #topBar .Compare, .Checkout {
 	display: none;
+}
+
+#topBar .Language {
+    margin-left: 20%;
 }
 
 .Language img {
@@ -88,9 +91,20 @@ ul, li {
 
 #logo img {
     width: 23%;
+    padding-left: 25px;
 }
 
 /*---------END Logotype--------*/
+
+/*---------hotLine--------*/
+
+#hotLine .Phone {
+	font-family: MontserratBold;
+	color: #7f7f7f;
+	font-size: 16px;
+}
+
+/*---------END hotLine--------*/
 
 /*---------Menu--------*/
 
