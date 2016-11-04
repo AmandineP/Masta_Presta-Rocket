@@ -45,6 +45,9 @@ ul, li {
 #topBar ul li {
 	float: left;
 	font-size: 11px;
+	border-right: solid 01px #7f7f7f;
+    margin-right: 10px;
+    padding-right: 10px;
 }
 
 #topBar ul li a {
@@ -53,6 +56,11 @@ ul, li {
 
 #topBar ul li a i {
 	color: #70a53f;
+	margin-right: 3px;
+}
+
+#topBar ul .Help, #topBar ul .SignIn {
+	border: none;
 }
 
 #topBar .fa-caret-down {
@@ -67,9 +75,14 @@ ul, li {
 	width: 15px;
 }
 
-
 /*---------END topBar--------*/
 
+/*---------Menu--------*/
 
+#menu ul li {
+	float: left;
+}
+
+/*---------END Menu--------*/
 
 /*---------END HEADER--------*/
