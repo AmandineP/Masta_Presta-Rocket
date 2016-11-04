@@ -207,4 +207,35 @@ ul, li {
 
 /*---------END Menu--------*/
 
+/*---------rightSide--------*/
+
+#rightSide .Bag, #rightSide .Bag i {
+	float: left;
+}
+
+#rightSide .Nb {
+	float: left;
+    border-radius: 50%;
+    padding: 0px 5px;
+
+}
+
+#rightSide .Nb.bag {
+	border: #70a53f solid 1px;
+	background: #70a53f;
+	color: #FFF;
+}
+
+#rightSide .WishList i {
+	float: left;
+}
+
+#rightSide .Nb.wish {
+	border: #ff6666 solid 1px;
+	background: #ff6666;
+	color: #FFF;
+}
+
+/*---------END rightSide--------*/
+
 /*---------END HEADER--------*/
