@@ -515,7 +515,8 @@ footer {
 /*---------Sitemap--------*/
 
 .Sitemap {
-	margin: 50px 85px 0 85px;
+	margin: 50px 85px 50px 85px;
+	border-bottom: 1px #999 solid;
 }
 
 .Sitemap ul h3 {
@@ -530,6 +531,15 @@ footer {
 .Sitemap li, .Sitemap i {
 	color: #999;
 	font-size: 10px;
+}
+
+.Sitemap .About i, .Sitemap .About li {
+	float: left;
+}
+
+.Sitemap .About .fa-phone, .Sitemap .About .fa-envelope-o, .Sitemap .About .fa-map-marker {
+	float: left;
+	margin-top: 4px;
 }
 
 .Sitemap .Social i {
@@ -559,11 +569,45 @@ footer {
 	font-size: 10px;
 }
 
+.Sitemap .About .TextCoordonneePhoneUn {
+	margin-left: 15px;
+	float: left;
+}
+
+.Sitemap .About .TextCoordonneePhone {
+	margin-left: 23px;
+	float: left;
+}
+
+.Sitemap .About .TextCoordonneeEmail {
+	margin-left: 14px;
+	float: left;
+}
+
+.Sitemap .About .TextCoordonneeAddress {
+	margin-left: 17px;
+	float: left;
+}
+
+
 /*---------END Sitemap--------*/
 
 /*---------OnTop--------*/
 
 
+
 /*---------END OnTop--------*/
+
+/*---------Newsletter--------*/
+
+
+
+/*---------END Newsletter--------*/
+
+/*---------Bottom--------*/
+
+
+
+/*---------END Bottom--------*/
 
 /*---------END FOOTER--------*/
