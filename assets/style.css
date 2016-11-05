@@ -364,7 +364,7 @@ a {
 	border: 0.5px solid #999999;
     height: 400px;
     float: right;
-    margin-top: -160px;
+	margin-top: -552px;
     position: relative;
 }
 
@@ -404,10 +404,166 @@ a {
 
 /*---------CreateNewAccount--------*/
 
+.CreateNewAccount {
+	height: 550px;
+	border: 0.5px solid #999999;
+	margin-top: 40px;
+	margin-left: 0;
+}
+
 .CreateNewAccount h1 {
 	font-size: 20px;
+	margin-left: 50px;
+	margin-top: 30px;
 }
+
+.CreateNewAccount button {
+    background: #000;
+    color: #FFF;
+    border: 1px #000 solid;
+    font-size: 11px;
+    width: 120px;
+    padding: 10px 0;
+    margin-top: 10px;
+    margin-left: 50px;
+    float: left;
+}
+
+.CreateNewAccount input {
+    margin-left: 50px;
+    box-shadow: none;
+    background: #f2f2f2;
+    border: none;
+    border-radius: 0;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.CreateNewAccount button:hover {
+	background: #689a3c;
+	border: 1px #689a3c solid;
+}
+
+.CreateNewAccount .Subscribe {
+	color: #999999;
+	font-size: 12px;
+	margin-top: 20px;
+}
+
 
 /*---------END CreateNewAccount--------*/
 
 /*---------END CONTAINER--------*/
+
+/*---------FOOTER--------*/
+
+footer {
+	background: #171717;
+	margin-top: 100px;
+}
+
+/*---------ForCustomer--------*/
+
+.ForCustomer {
+	padding: 0 220px;
+	border-bottom: 1px solid #999;
+	height: 150px;
+}
+
+.ForCustomer .Customer {
+	width: 200px;
+	border-right: 1px solid #999; 
+	padding-right: 10px;
+	margin-top: 40px;
+}
+
+.ForCustomer .Customer.Support {
+	padding-right: 30px;
+}
+
+.ForCustomer .Customer.Promo {
+	padding-right: 0;
+	border: none;
+}
+
+.ForCustomer .Customer img {
+	width: 15%;
+	float: left;
+    margin: 20px 20px 0px 0px;
+}
+
+.ForCustomer .Customer h3 {
+	font-family: MontserratBold;
+	font-size: 12px;
+	color: #FFF;
+	float: left;
+	margin-bottom: 0;
+}
+
+.ForCustomer .Customer .SousTitre {
+	font-size: 10px;
+	color: #7f7f7f;
+	float: left;
+	margin-top: -10px;
+    margin-left: 50px;
+}
+
+/*---------END ForCustomer--------*/
+
+/*---------Sitemap--------*/
+
+.Sitemap {
+	margin: 50px 85px 0 85px;
+}
+
+.Sitemap ul h3 {
+	color: #FFF;
+	font-family: MontserratBold;
+	font-size: 12px;
+}
+.Sitemap li {
+	margin-bottom: 10px;
+}
+
+.Sitemap li, .Sitemap i {
+	color: #999;
+	font-size: 10px;
+}
+
+.Sitemap .Social i {
+    border: 1px #343434 solid;
+    background: #343434;
+    border-radius: 50%;
+}
+
+.fa-pinterest, .fa-twitter, .fa-instagram {
+    padding: 5px 6px;
+}
+
+.fa-facebook {
+    padding: 5px 7px;
+}
+
+.fa-google-plus {
+    padding: 5px 4px;
+}
+
+.fa-youtube-play {
+    padding: 5px 5px;	
+}
+
+.Sitemap li a {
+	color: #999;
+	font-size: 10px;
+}
+
+/*---------END Sitemap--------*/
+
+/*---------OnTop--------*/
+
+
+/*---------END OnTop--------*/
+
+/*---------END FOOTER--------*/
