@@ -93,7 +93,7 @@ a {
 }
 
 .Language {
-    margin-left: 435px;
+    margin-left: 355px;
 }
 
 .Currency {
@@ -115,9 +115,15 @@ a {
 #topBar {
 	position: relative;
 	margin-top: 10px;
+	margin-left: 50px;
 }
 
 /*---------END topBar--------*/
+
+.LogoSearchHotLine {
+    margin-top: 60px;
+    margin-left: 50px;
+}
 
 /*---------Logotype--------*/
 
@@ -131,11 +137,16 @@ a {
 
 /*---------search--------*/
 
+#search {
+	margin-top: 5px;
+	margin-left: 94px;
+}
+
 #search input {
     border: solid 2px #70a53f;
     border-radius: inherit;
     float: left;
-    margin-left: 8.5%;
+    margin-left: 25px;
     font-size: 10px;
 }
 
@@ -143,7 +154,7 @@ a {
 	background: #70a53f;
     border: none;
     height: 32px;
-    margin: none;
+    margin: 0;
     float: left;
 }
 
@@ -160,10 +171,8 @@ a {
 /*---------hotLine--------*/
 
 #hotLine {
-	float: left;
-	margin-left: 6%;
-    margin-right: 1%;
-    position: relative;
+    margin-left: 94px;
+    width: 100px;
 }
 
 #hotLine .Phone {
@@ -199,15 +208,12 @@ a {
 /*---------tagHot--------*/
 
 #tagHot {
-    margin-top: 13%;
+    margin: 10px 0 0 250px;
+	position: absolute;
 }
 
 #tagHot img {
-	width: 3%;
-	position: relative;
-	overflow: hidden;
-    margin-left: 17%;
-    margin-bottom: -3%;
+	width: 45%;
 }
 
 /*---------END tagHot--------*/
@@ -216,16 +222,38 @@ a {
 
 #menu {
 	position: relative;
+	margin-left: 45px;
+	margin-top: 25px;
 }
 
 #menu ul li {
 	float: left;
-	margin-right: 3%;
+	margin-left: 0;
 }
 
 #menu ul li a {
 	color: #000;
 	font-size: 10.5px;
+}
+
+#menu .Home {
+	margin-left: 35px;
+}
+
+#menu .MegaMenu, #menu .Blog, #menu .Lookbook {
+    margin-left: -90px;
+}
+
+#menu .Shop, #menu .BuyTheme {
+    margin-left: -55px;
+}
+
+#menu .Pages {
+    margin-left: -95px;
+}
+
+#menu .Shortcode {
+    margin-left: -65px;
 }
 
 #menu .BuyTheme a {
