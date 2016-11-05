@@ -19,6 +19,10 @@ ul, li {
 	list-style: none;
 }
 
+a {
+	cursor: pointer;
+}
+
 .col-xs-1 {
 	width: 2.5%;
 }
@@ -41,6 +45,10 @@ ul, li {
 
 .col-lg-1 {
 	width: 11%;
+}
+
+.col-lg-12 {
+	width: 100%
 }
 
 /*---------HEADER--------*/
@@ -240,6 +248,11 @@ ul, li {
 
 /*---------rightSide--------*/
 
+#rightSide {
+	float: right;
+	margin-right: 2.5%;
+}
+
 #rightSide .Bag, #rightSide .Bag i {
 	float: left;
     margin-right: 10px;
@@ -266,6 +279,10 @@ ul, li {
 	padding-right: 10px;
 }
 
+#rightSide .WishList {
+	float: right;
+}
+
 #rightSide .WishList i {
 	float: left;
     margin-right: 10px;
@@ -280,3 +297,65 @@ ul, li {
 /*---------END rightSide--------*/
 
 /*---------END HEADER--------*/
+
+/*---------CONTAINER--------*/
+
+/*---------TitlePage--------*/
+
+.TitlePage {
+	background: #F2F2F2;
+}
+
+.TitlePage h1 {
+    margin-left: 2.5%;
+    font-size: 20px;
+}
+
+#pagePath {
+	float: right;
+	margin-right: 2.5%;
+    margin-top: -40px;
+}
+
+.PagePath a {
+	color: #000;
+}
+
+.PagePath.active a {
+	color: #689a3c;
+}
+
+#pagePath .PagePath, #pagePath i {
+	float: left;
+	margin-left: 10px;
+}
+
+#pagePath i {
+	margin-top: 3px;
+}
+
+/*---------END TitlePage--------*/
+
+/*---------Register--------*/
+
+.Register h1 {
+	font-size: 20px;
+}
+
+.Register .Text {
+	font-size: 13px;
+	color: #999999;
+	text-align: center;
+}
+
+/*---------END Register--------*/
+
+/*---------CreateNewAccount--------*/
+
+.CreateNewAccount h1 {
+	font-size: 20px;
+}
+
+/*---------END CreateNewAccount--------*/
+
+/*---------END CONTAINER--------*/

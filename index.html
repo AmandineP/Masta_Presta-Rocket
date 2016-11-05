@@ -4,6 +4,7 @@
 	<head>
 	   <meta charset="UTF-8">
 	   <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	   <link href="assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
 	   <link href="assets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	   <link href="assets/style.css" rel="stylesheet">
 
@@ -147,22 +148,22 @@
 		</header>
 		<div class="container">
 			<div class="TitlePage">
-				<h1>Register</h1>
-				<div class="PagePath">
-					<div class="PagePath">Home</div>
+				<h1 class="col-md-1">Register</h1>
+				<div id="pagePath">
+					<div class="PagePath"><a href="#">Home</a></div>
 					<i class="fa fa-angle-right" aria-hidden="true"></i>
-					<div class="PagePath">My Account</div>
+					<div class="PagePath"><a href="#">My Account</a></div>
 					<i class="fa fa-angle-right" aria-hidden="true"></i>
-					<div class="PagePath active">Register</div>
+					<div class="PagePath active"><a href="#">Register</a></div>
 				</div>
 			</div>
 			<div class="Register">
-				<h2>Register</h2>
-				<div class="Text">Registering for this site allows you to access your order status and history. Just fill in the fields below, and we’ll get a new account set up for you in no time. We will only ask you for information necessary to make the purchase process faster and easier.</div>
+				<h1>Register</h1>
+				<div class="Text col-md-5">Registering for this site allows you to access your order status and history. Just fill in the fields below, and we’ll get a new account set up for you in no time. We will only ask you for information necessary to make the purchase process faster and easier.</div>
 				<button type="submit" class="ButtonRegister">REGISTER</button>
 			</div>
 			<div class="CreateNewAccount">
-				<h2>Create An New Account</h2>
+				<h1>Create An New Account</h1>
 				<input type="text" placeholder="Your Name *" required>
 				<input type="text" placeholder="Address *" required>
 				<input type="text" placeholder="Phone *" required>
@@ -280,5 +281,6 @@
 
 	<script src="assets/jquery-2.2.0.min.js"></script>
 	<script type="text/javascript" src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/bootstrap/js/bootstrap-responsive.min.js"></script>
 
 </html>
