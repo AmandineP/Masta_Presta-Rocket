@@ -269,7 +269,7 @@ a {
 
 #rightSide {
 	float: right;
-	margin-right: 2.5%;
+	margin-right: 20px;
 }
 
 #rightSide .Bag, #rightSide .Bag i {
@@ -323,17 +323,18 @@ a {
 
 .TitlePage {
 	background: #F2F2F2;
+	margin-left: 0px;
+	margin-top: 10px;
 }
 
 .TitlePage h1 {
-    margin-left: 2.5%;
     font-size: 20px;
 }
 
 #pagePath {
 	float: right;
-	margin-right: 2.5%;
-    margin-top: -40px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 
 .PagePath a {
@@ -357,8 +358,13 @@ a {
 
 /*---------Register--------*/
 
+.Register {
+	border: 1px solid #999999;
+}
+
 .Register h1 {
 	font-size: 20px;
+	text-align: center;
 }
 
 .Register .Text {
