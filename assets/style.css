@@ -317,24 +317,25 @@ a {
 
 /*---------END HEADER--------*/
 
-/*---------CONTAINER--------*/
-
 /*---------TitlePage--------*/
 
 .TitlePage {
-	background: #F2F2F2;
-	margin-left: 0px;
-	margin-top: 10px;
+    background: #F2F2F2;
+    margin-left: 0px;
+    width: 100%;
+    position: absolute;
+    margin-top: 200px;
 }
 
 .TitlePage h1 {
 	font-family: MontserratBold;
     font-size: 23px;
+    margin-left: 160px;
 }
 
 #pagePath {
 	float: right;
-    margin-right: 20px;
+    margin-right: 155px;
     margin-top: 20px;
 	font-size: 12px;
 }
@@ -358,6 +359,8 @@ a {
 
 /*---------END TitlePage--------*/
 
+/*---------CONTAINER--------*/
+
 /*---------Register--------*/
 
 .Register {
@@ -365,7 +368,9 @@ a {
     height: 400px;
     float: right;
 	margin-top: -552px;
+	margin-right: 20px;
     position: relative;
+    width: 47%;
 }
 
 .Register h1 {
@@ -373,6 +378,7 @@ a {
 	font-size: 23px;
 	text-align: center;
     margin: 40px 0 0 0;
+    width: 100%
 }
 
 .Register .Text {
@@ -380,13 +386,11 @@ a {
 	color: #999999;
 	text-align: center;
     line-height: 23px;
-    margin-left: 55px;
-	margin-top: 25px;
+    margin: 25px 40px;
 }
 
 .Register button {
-    margin-left: 230px;
-    margin-top: 25px;
+    margin: 25px 215px;
     background: #000;
     color: #FFF;
     border: 1px #000 solid;
@@ -407,14 +411,14 @@ a {
 .CreateNewAccount {
 	height: 550px;
 	border: 0.5px solid #999999;
-	margin-top: 40px;
-	margin-left: 0;
+    margin-top: 120px;
+	margin-left: 20px;
+    width: 47%;
 }
 
 .CreateNewAccount h1 {
 	font-size: 20px;
-	margin-left: 50px;
-	margin-top: 30px;
+    margin: 25px 34px;
 }
 
 .CreateNewAccount button {
@@ -425,20 +429,19 @@ a {
     width: 120px;
     padding: 10px 0;
     margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 34px;
     float: left;
 }
 
 .CreateNewAccount input {
-    margin-left: 50px;
     box-shadow: none;
     background: #f2f2f2;
     border: none;
     border-radius: 0;
     height: 40px;
-    margin-top: 10px;
     font-size: 12px;
     padding-left: 20px;
+    margin: 10px 34px;
 }
 
 .CreateNewAccount button:hover {
@@ -606,6 +609,7 @@ footer {
 .OnTop a {
 	color: #999;
 	font-size: 12px;
+	text-decoration: none;
 }
 
 .OnTop a i {
@@ -619,6 +623,16 @@ footer {
     font-size: 10px;
     line-height: 1;
     margin-top: 10px;
+}
+
+.OnTop a:hover i {
+	background: #70a53f;
+	color: #FFF;
+	border: 1px solid #70a53f;
+}
+
+.OnTop a:hover div {
+	color: #70a53f;
 }
 
 /*---------END OnTop--------*/
@@ -643,7 +657,7 @@ p {
 
 .Newsletter form {
 	float: right;
-	margin: 0 85px 20px 0px;
+	margin: -10px 85px 20px 0px;
 }
 
 .Newsletter input {
