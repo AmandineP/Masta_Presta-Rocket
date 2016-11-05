@@ -50,6 +50,7 @@ ul, li {
 #notification {
 	background: #F2F2F2;
 	height: 20px;
+	position: relative;
 }
 
 #notification div {
@@ -97,7 +98,7 @@ ul, li {
 
 #topBar .fa-caret-down {
 	color: #7f7f7f;
-	border-right: solid 01px #7f7f7f;
+	border-right: solid 1px #7f7f7f;
     border: none;
 }
 
@@ -115,6 +116,7 @@ ul, li {
 
 #topBar {
 	margin-bottom: 8%; 
+	position: relative;
 }
 
 /*---------END topBar--------*/
@@ -125,6 +127,7 @@ ul, li {
     width: 90%;
     padding-left: 25px;
     float: left;
+    position: relative;
 }
 
 /*---------END Logotype--------*/
@@ -151,6 +154,10 @@ ul, li {
 	color: #FFF;
 }
 
+#search button:hover {
+	background: #689a3c;
+}
+
 /*---------END search--------*/
 
 /*---------hotLine--------*/
@@ -159,6 +166,7 @@ ul, li {
 	float: left;
 	margin-left: 6%;
     margin-right: 1%;
+    position: relative;
 }
 
 #hotLine .Phone {
@@ -183,17 +191,35 @@ ul, li {
     margin: -40px 0px 0 105px;
 }
 
+#hotLine i:hover {
+	color: #FFF;
+	background: #70a53f;
+	border: solid 1px;
+}
+
 /*---------END hotLine--------*/
 
 /*---------tagHot--------*/
 
+#tagHot {
+    margin-top: 13%;
+}
+
 #tagHot img {
 	width: 3%;
+	position: relative;
+	overflow: hidden;
+    margin-left: 17%;
+    margin-bottom: -3%;
 }
 
 /*---------END tagHot--------*/
 
 /*---------Menu--------*/
+
+#menu {
+	position: relative;
+}
 
 #menu ul li {
 	float: left;
@@ -205,18 +231,25 @@ ul, li {
 	font-size: 10.5px;
 }
 
+#menu .BuyTheme a {
+	text-decoration: underline;
+	color: #ff6666;
+}
+
 /*---------END Menu--------*/
 
 /*---------rightSide--------*/
 
 #rightSide .Bag, #rightSide .Bag i {
 	float: left;
+    margin-right: 10px;
 }
 
 #rightSide .Nb {
 	float: left;
     border-radius: 50%;
     padding: 0px 5px;
+    margin-top: -3px;
 
 }
 
@@ -224,10 +257,18 @@ ul, li {
 	border: #70a53f solid 1px;
 	background: #70a53f;
 	color: #FFF;
+    margin-right: 10px;
+}
+
+#rightSide .Price {
+	float: left;
+	border-right: solid 1px #7f7f7f;
+	padding-right: 10px;
 }
 
 #rightSide .WishList i {
 	float: left;
+    margin-right: 10px;
 }
 
 #rightSide .Nb.wish {
