@@ -491,7 +491,7 @@ footer {
 /*---------ForCustomer--------*/
 
 .ForCustomer {
-	padding: 0 220px;
+	padding: 0 155px;
 	border-bottom: 1px solid #999;
 	height: 150px;
 }
@@ -499,7 +499,7 @@ footer {
 .ForCustomer .Customer {
 	width: 200px;
 	border-right: 1px solid #999; 
-	padding-right: 10px;
+	padding-right: 80px;
 	margin-top: 40px;
 }
 
@@ -539,9 +539,18 @@ footer {
 /*---------Sitemap--------*/
 
 .Sitemap {
-	margin: 50px 85px 50px 85px;
-	border-bottom: 1px #999 solid;
-	float: left;
+    margin: 50px 20px 50px 20px;
+    border-bottom: 1px #999 solid;
+    float: left;
+    width: 100%;
+}
+
+.Sitemap .About {
+	margin-left: 0;
+}
+
+.Sitemap ul {
+    margin-right: 40px;
 }
 
 .Sitemap ul h3 {
@@ -624,7 +633,7 @@ footer {
 	width: 75px;
 	float: right;
 	position: absolute;
-	margin: -27% 0 0px 89%;
+    margin: -27% 0 0px 95%;
 }
 
 .OnTop a {
@@ -663,7 +672,7 @@ footer {
 .Newsletter div {
 	font-size: 13px;
 	color: #999;
-	margin-left: 85px;
+	margin-left: 20px;
 }
 
 strong {
@@ -678,7 +687,7 @@ p {
 
 .Newsletter form {
 	float: right;
-	margin: -10px 85px 20px 0px;
+	margin: -10px -20px 20px 0px;
 }
 
 .Newsletter input {
@@ -689,7 +698,7 @@ p {
 	float: left;
 	font-size: 10px;
     padding-left: 20px;
-    width: 270px;
+    width: 400px;
 }
 
 .Newsletter button {
@@ -715,12 +724,12 @@ p {
 	font-size: 10px;
 	float: left;
 	margin-left: 30px;
-    margin: 15px 220px;
+    margin: 15px 155px;
 }
 
 .Bottom div img {
 	float: right;
-    margin: 15px 220px 0 0;
+    margin: 15px 115px 0 0;
 }
 
 /*---------END Bottom--------*/
